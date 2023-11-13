@@ -1,0 +1,53 @@
+/* styles.css */
+
+/* Reset some default browser styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles to specific elements */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(72, 101, 125);
+    color: #333;
+}
+
+h1 {
+    color: #0066cc;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: #151414;
+}
+.edu-table { /* Add styles for the Experience table using the class selector */
+    border: 2px solid black; /* Add a black border to the Experience table */
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-icons a {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #333; /* Adjust the color as needed */
+    text-decoration: none;
+}
+
+th, td {
+    border: 1px solid #151414;
+    text-align: left;
+    padding: 8px;
+}
+
+
